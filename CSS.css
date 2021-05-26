@@ -1,1 +1,248 @@
-Not Argh
+*{
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+
+.Header{
+  background-color: #666666;
+  text-align: center;
+  text-decoration: underline;
+  padding: 30px;
+}
+
+.Box {
+  background-color: #000000;
+  color:white;
+  padding: 5px;
+  text-align: center;
+}
+
+.Navbar {
+  
+    border-style: #3f3e3e;
+    overflow: hidden;
+    background-color: #666666;
+    text-align: center;
+    height: 50px;
+    
+}
+
+.Navbar a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.Navbar a:hover {
+    background-color: rgb(241, 16, 16);
+    color:black;
+    height: 50px;
+}
+
+.Column2 {
+  float: left;
+  padding:10px;
+  width:100%;
+  border-style: groove;
+  background-color: #999999; 
+  text-align: center;
+}
+
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+  border-style: groove;
+}
+
+.Column2 {
+  float: left;
+  background-color: #5c0000;
+  color: white; 
+  width:50%; 
+}
+
+@media screen and (max-width: 600px) {
+  .Column2 {
+    width: 100%;
+    text-align: top left ;
+  }
+
+  .Column2 {
+    width: 100%;
+    text-align: top left;
+  }
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.MoreInfoColumn1 {
+  float: left;
+  background-color: #5c0000;
+  color: white; 
+  width:50%;
+}
+
+.inforow1:after {
+  content: "";
+  display: table;
+  clear: both;
+  border-style: groove;
+}
+
+.MoreInfoColumn2 {
+  float: left;
+  background-color: #5c0000;
+  color: #5c0000;
+  width:50%; 
+}
+
+@media screen and (max-width: 600px) {
+  .MoreInfoColumn1 {
+    width: 100%;
+    text-align: top left ;
+  }
+
+  .MoreInfoColumn2 {
+    width: 100%;
+    text-align: top left;
+  }
+}
+.row::after{
+  content: "";
+  padding: 20px;
+  display: table;
+  clear: both;
+
+}
+.card{
+  background-color: #5c0000;
+}
+.ClassesColumn1 {
+  float: left;
+  background-color: #5c0000;
+  color: white; 
+  width:50%;
+}
+
+.Classesrow1:after {
+  content: "";
+  display: table;
+  clear: both;
+  border-style: groove;
+}
+.leftColumn{
+  float: left;
+  width: 50%;
+
+}
+.rightcolumn{
+  float: left;
+  width: 50%;
+  padding-left: 15px;
+}
+
+.ClassesColumn1 {
+  float: left;
+  background-color: #5c0000;
+  color: white; 
+  width:50%; 
+}
+
+@media screen and (max-width: 600px) {
+  .ClassesColumn1 {
+    width: 100%;
+    text-align: top left ;
+  }
+
+  .ClassesColumn1 {
+    width: 100%;
+    text-align: top left;
+  }
+}
+
+.HistoryColumn1 {
+  float: left;
+  background-color: #5c0000;
+  color: white; 
+  width:50%;
+}
+
+.Historyrow1:after {
+  content: "";
+  display: table;
+  clear: both;
+  border-style: groove;
+}
+
+.HistoryColumn2 {
+  float: left;
+  background-color: #5c0000;
+  color: white; 
+  width:50%; 
+}
+
+@media screen and (max-width: 600px) {
+  .HistoryColumn1 {
+    width: 100%;
+    text-align: top left ;
+  }
+  .HisoryColumn2 {
+    width: 100%;
+    text-align: top left;
+  }
+}
